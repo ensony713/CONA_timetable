@@ -1,0 +1,14 @@
+<RCC>
+  <qresource>
+    <file>icon/image_share.png</file>
+    <file>icon/share.png</file>
+    <file>icon/cafe_share.png</file>
+    <file>icon/add.png</file>
+    <file>icon/set.png</file>
+    <file>icon/home.png</file>
+    <file>icon/cafe.png</file>
+    <file>icon/calendar.png</file>
+    <file>icon/clock.png</file>
+    <file>icon/timetable.png</file>
+  </qresource>
+</RCC>

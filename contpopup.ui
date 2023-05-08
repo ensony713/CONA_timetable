@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="edl">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>131</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>까지 반복</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saved">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>저장</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="sdate2">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>92</y>
+     <width>107</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sdatel">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>92</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>지정 날짜 반복</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="condnday2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>53</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>에 한 번</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="sdate1">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>92</y>
+     <width>107</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="wedck">
+   <property name="geometry">
+    <rect>
+     <x>194</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>수</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="caned">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>취소</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="thuck">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>목</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="eddate">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>107</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stl">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>131</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>부터</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="stdate">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>131</y>
+     <width>107</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="tueck">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>화</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="monck">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>월</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="daycontl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>19</y>
+     <width>65</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>요일 반복</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="connday">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>53</y>
+     <width>95</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>며칠마다 반복</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="frick">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>금</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="satck">
+   <property name="geometry">
+    <rect>
+     <x>361</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>토</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sunck">
+   <property name="geometry">
+    <rect>
+     <x>417</x>
+     <y>19</y>
+     <width>42</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>일</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ndays">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
